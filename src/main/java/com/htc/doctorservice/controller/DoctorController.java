@@ -28,7 +28,7 @@ Doctor getDoctor(@PathVariable Long doctorId)
 	
 }
 
-@GetMapping("/doctors/{appointmentId}")
+@GetMapping("/doctor/{appointmentId}")
 Doctor getDoctorByAppoinmentId(@PathVariable Long appointmentId)
 {
 	Doctor doc=null;
